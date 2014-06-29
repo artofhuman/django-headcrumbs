@@ -32,7 +32,7 @@ How to use
 
 ### Installation ###
 1. `git clone git://github.com/kirelagin/django-headcrumbs.git`.
-2. Copy (or, even better, symlink) `headcrumbs` directory to your Django project.
+2. `cd django-headcrumbs && python setup.py install` or copy (or, even better, symlink) `headcrumbs` directory to your Django project.
 3. Add `'headcrumbs.middleware.CrumbsMiddleware'` to `MIDDLEWARE_CLASSES`
    in your `settings.py`.
 4. _(Optional)_ Add `'headcrumbs'` to `INSTALLED_APPS` variable in your
